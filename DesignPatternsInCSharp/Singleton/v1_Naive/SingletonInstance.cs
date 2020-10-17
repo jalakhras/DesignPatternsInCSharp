@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
 [assembly: CollectionBehavior(CollectionBehavior.CollectionPerClass, DisableTestParallelization = true)]
-
 namespace DesignPatternsInCSharp.Singleton.v1
 {
     public class SingletonInstance
